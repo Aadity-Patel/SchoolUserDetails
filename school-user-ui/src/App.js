@@ -1,10 +1,10 @@
 import './App.css';
-import UserButton from './components/UserButton';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <UserButton buttonText={'Add a New User'} onClick = {() => console.log('Hello User!!!')} />
+      <HomePage />
     </div>
   );
 }
